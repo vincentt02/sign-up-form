@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <div class="container">
+        <div class="imageContainer">
+          <img src="./images/guoba-genshin-impact.gif" alt="Guoba Waving Gif" />
+        </div>
+        <div class="signupContainer">
+          <form action="" method="post">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="first_name" required />
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="last_name" required />
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+            <label for="phoneNumber">Phone Number</label>
+            <input
+              type="tel"
+              id="phoneNumber"
+              name="phone_number"
+              pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$"
+              required
+              title="XXX-XXX-XXXX"
+            />
+            <button type="submit">Sign Up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
