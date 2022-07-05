@@ -50,11 +50,11 @@ label {
   display: block;
 }
 .signupForm {
-  width: 80%;
+  width: max(60%, 400px);
   height: 75%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 40px;
+  /* column-gap: 40px; */
   margin-top: 20px;
   margin-left: 20px;
 }
@@ -72,8 +72,18 @@ input {
 #submit {
   margin-left: 20px;
   margin-top: 40px;
-  width: 40%;
+  width: 200px;
   height: 15%;
   border-radius: 10px;
   background-color: hsl(28, 86%, 70%);
+}
+
+.imageContainer {
+  height: 100%;
+  width: 100%;
+}
+
+.imageContainer img {
+  height: 100%;
+  width: 100%;
 }
